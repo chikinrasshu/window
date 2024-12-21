@@ -63,7 +63,6 @@ typedef struct chk_window {
     void *impl;
 } chk_window_t;
 
-CHK_WINDOW_API chk_status_code_t chk_window_create(chk_window_t *window, s32 w,
-                                                   s32 h, const char *caption);
+CHK_WINDOW_API chk_status_code_t chk_window_create(chk_window_t *window, s32 w, s32 h, const char *caption);
 CHK_WINDOW_API chk_status_code_t chk_window_destroy(chk_window_t *window);
 CHK_WINDOW_API chk_status_code_t chk_window_run(chk_window_t *window);
