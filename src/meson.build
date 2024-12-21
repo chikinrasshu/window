@@ -1,5 +1,5 @@
 chk_window_src = ['chk/window/window.c']
-chk_window_deps = [dependency('chk_common')]
+chk_window_deps = [dependency('chk_common'), dependency('glfw3')]
 
 chk_window_dep = library(
     'chk_window',
