@@ -9,6 +9,7 @@ project(
 # Library
 subdir('include')
 subdir('src')
+subdir('test')
 
 # Pkg-Config
 pkg = import('pkgconfig')
